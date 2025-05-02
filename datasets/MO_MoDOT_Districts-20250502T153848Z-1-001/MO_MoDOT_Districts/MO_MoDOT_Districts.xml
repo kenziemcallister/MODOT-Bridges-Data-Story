@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <pubdate>20231120</pubdate>
+                <title>MO MoDOT District Polygon</title>
+                <geoform>vector digital data</geoform>
+                <pubinfo>
+                    <pubplace/>
+                    <publish>Transportation Planning Division</publish>
+                </pubinfo>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>This dataset was developed by the Missouri Department of Transportation. A polygon feature class of MoDOT's districts. Received and posted by MSDIS on 22 November 2023.</abstract>
+            <purpose>A polygon feature class of MoDOT's districts.</purpose>
+        </descript>
+        <spdom>
+            <bounding>
+                <westbc>-95.774884</westbc>
+                <eastbc>-88.898013</eastbc>
+                <northbc>40.620695</northbc>
+                <southbc>35.962562</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Transportation, District</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>boundaries</themekey>
+                <themekey>transportation</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>Although all data in this dataset has been compiled by the Missouri Department of Transportation, no warranty, expressed or implied, is made by the department as to the accuracy of the data and related materials.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Missouri Department of Transportaiton</cntorg>
+                    <cntper>Transportation Planning Division</cntper>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>physical</addrtype>
+                    <address>105 W. Capitol Ave.</address>
+                    <city>Jefferson City</city>
+                    <state>Missouri</state>
+                    <postal>65101</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>573-526-0993</cntvoice>
+            </cntinfo>
+        </ptcontac>
+        <datacred>Missouri Department of Transportation, Transportation Planning Division</datacred>
+        <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.6.1.9270</native>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>7</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>MoDOT_Districts</enttypl>
+                <enttypd>District number (1-7): 1=Northwest, 2=Northeast, 3=KC, 4=Central, 5=STL, 6=Southwest, 7=Southeast</enttypd>
+                <enttypds>MoDOT</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Coordinates defining the features.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DISTRICT_NO</attrlabl>
+                <attrdef>MoDOT District Number (1-7) 1=Northwest, 2=Northeast, 3=Kansas City, 4=Central, 5=St. Louis, 6=Southwest, 7=Southeast</attrdef>
+                <attrdefs>MoDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>DISTRICT_NAME</attrlabl>
+                <attrdef>MoDOT District Name</attrdef>
+                <attrdefs>MoDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>DISTRICT_ABBR</attrlabl>
+                <attrdef>MoDOT District Abbreviations NW=Northwest, NE=Northeast, KC=Kansas City, CD=Central, SL=St. Louis, SW=Southwest, SE=Southeast</attrdef>
+                <attrdefs>MoDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE_Length</attrlabl>
+                <attrdef>Length of feature in internal units.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Positive real numbers that are automatically generated.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE_Area</attrlabl>
+                <attrdef>Area of feature in internal units squared.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Positive real numbers that are automatically generated.</udom>
+                                    
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20231122</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Missouri Department of Transportaiton</cntorg>
+                    <cntper>Transportation Planning Division</cntper>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>physical</addrtype>
+                    <address>105 W. Capitol Ave.</address>
+                    <city>Jefferson City</city>
+                    <state>Missouri</state>
+                    <postal>65101</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>573-526-0993</cntvoice>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+        <metuc>Although all data in this data set have been compiled by the Missouri Department of Transportation, no warranty, expressed or implied, is made by the department as to the accuracy of the data and related materials.</metuc>
+    </metainfo>
+</metadata>
